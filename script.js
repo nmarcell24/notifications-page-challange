@@ -4,4 +4,7 @@ document.getElementById("mark_read").addEventListener("click" , () => {
     document.querySelectorAll(".dot").forEach(elem => {
         elem.style.display = "none";
     });
+    document.querySelectorAll(".new").forEach(elem => {
+        elem.style.backgroundColor = "white";
+    })
 });

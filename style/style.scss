@@ -56,6 +56,10 @@ $blue: hsl(219, 85%, 26%);
     main {
         margin-top: 10px;
 
+        .new {
+            background-color: hsl(210, 60%, 98%);
+        }
+
         .notification{
             display: flex;
             align-items: center;
@@ -63,7 +67,6 @@ $blue: hsl(219, 85%, 26%);
             gap: 15px;
             padding: 10px;
             margin-bottom: 15px;
-            background-color: hsl(210, 60%, 98%);
             color: hsl(219, 14%, 63%);
 
             .img_frame {
@@ -164,6 +167,6 @@ $blue: hsl(219, 85%, 26%);
     }
 
     .notification {
-        padding: 20px !important;
+        padding: 25px !important;
     }
 }

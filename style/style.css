@@ -48,6 +48,9 @@ body {
 .container main {
   margin-top: 10px;
 }
+.container main .new {
+  background-color: hsl(210, 60%, 98%);
+}
 .container main .notification {
   display: flex;
   align-items: center;
@@ -55,7 +58,6 @@ body {
   gap: 15px;
   padding: 10px;
   margin-bottom: 15px;
-  background-color: hsl(210, 60%, 98%);
   color: hsl(219, 14%, 63%);
 }
 .container main .notification .img_frame {
@@ -138,6 +140,6 @@ body {
     padding: 15px !important;
   }
   .notification {
-    padding: 20px !important;
+    padding: 25px !important;
   }
 }/*# sourceMappingURL=style.css.map */
