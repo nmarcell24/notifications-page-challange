@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+html, body {
+  font-size: 16px;
+  background-color: hsl(210, 60%, 98%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 10px;
+}
+.container header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container header h3 {
+  color: hsl(219, 12%, 42%);
+  font-weight: 300;
+  font-size: 15px;
+}
+.container header h3:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+.container header #number_of_noti {
+  font-size: 20px;
+  border: 3px;
+  background-color: hsl(219, 85%, 26%);
+  color: hsl(0, 0%, 100%);
+  padding: 1px 15px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.container main {
+  margin-top: 10px;
+}
+.container main .notification {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: hsl(210, 60%, 98%);
+  color: hsl(219, 14%, 63%);
+}
+.container main .notification .img_frame {
+  width: 50px;
+}
+.container main .notification .img_frame img {
+  width: 40px;
+  height: 100%;
+}
+.container main .notification .img_frame #chess:hover {
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+.container main .notification .dot {
+  height: 8px;
+  width: 8px;
+  margin-left: 8px;
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50%;
+  display: inline-block;
+}
+.container main .notification .name {
+  font-weight: bold;
+  color: hsl(224, 21%, 14%);
+}
+.container main .notification .name:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+.container main .notification .post_name {
+  color: hsl(219, 12%, 42%);
+  font-weight: 600;
+}
+.container main .notification .post_name:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+.container main .notification .groupe {
+  color: hsl(219, 85%, 26%);
+  font-weight: bold;
+}
+.container main .notification .groupe:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+.container main .notification .private_message {
+  outline: 0.5px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  color: #69758c;
+}
+.container main .notification .private_message:hover {
+  background-color: #cee0f3;
+  cursor: pointer;
+  outline: none;
+}
+
+.attribution {
+  margin: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    margin: 70px 100px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .container {
+    margin: 70px 350px;
+    padding: 30px;
+  }
+  header {
+    padding: 20px;
+  }
+  .private_message {
+    padding: 15px !important;
+  }
+  .notification {
+    padding: 20px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
